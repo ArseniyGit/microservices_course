@@ -29,7 +29,7 @@ func (s *server) Get(ctx context.Context, req *desc.GetRequest) (*desc.GetRespon
 			Id: req.GetId(),
 			Info: &desc.NoteInfo{
 				Title:    "Some tittle",
-				Context:  "0.0.0.0",
+				Context:  "5.0.0.0",
 				Author:   "Some name",
 				IsPublic: true,
 			},
