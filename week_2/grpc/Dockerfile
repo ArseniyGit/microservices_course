@@ -1,4 +1,4 @@
-FROM golang:1.20.3-alpine AS builder
+FROM golang:1.23.1-alpine AS builder
 
 COPY . /github.com/olezhek28/microservices_course/week_2/grpc/source/
 WORKDIR /github.com/olezhek28/microservices_course/week_2/grpc/source/
